@@ -21,26 +21,27 @@
 
 ## 📦 下载
 
-**推荐方式：直接下载 Release 附件（GitHub CDN 加速，比网盘快很多）**
+**推荐方式：直接下载 Release 附件（走 GitHub CDN，比网盘快很多）**
 
-👉 **前往 [Releases 页面](https://github.com/NovaX322/zhb/releases/latest)**
+👉 **[Releases 页面](https://github.com/NovaX322/zhb/releases/latest)** — 在 **Assets** 里点击 zip 即可。
+
+**直链（可直接贴给玩家）：**
+
+```
+https://github.com/NovaX322/zhb/releases/download/v3.13.13/Chapter-of-Yuusha-III-v3.13.13-Client-Pack-Despaired-Era.zip
+```
 
 | 项目 | 值 |
 | --- | --- |
-| 文件名 | `Chapter of Yuusha Ⅲ 勇者之章Ⅲ v3.13.13 客户端导入包（绝望纪元版本）.zip` |
+| 下载文件名 | `Chapter-of-Yuusha-III-v3.13.13-Client-Pack-Despaired-Era.zip` |
+| 整合包原始名 | `Chapter of Yuusha Ⅲ 勇者之章Ⅲ v3.13.13 客户端导入包（绝望纪元版本）.zip` |
 | 版本 | v3.13.13（绝望纪元版本） |
 | 大小 | 1,145,961,062 字节（约 1.07 GiB） |
 | SHA-256 | `29BD7F4265DDD216419D18589AE1EEE4DB7CAB5FB9DE59B77BFD2E8584B269AD` |
 
+> 📌 关于文件名：GitHub 的 Release 附件名会剔除中文与特殊符号，因此上传时把文件名转写成了纯 ASCII。**文件内容与原版完全一致**（哈希可验证），只是名字变了。
+
 文件较大（>1 GB），**GitHub 单文件附件上限为 2 GB**，因此只能作为 Release 附件分发，仓库代码区不放该文件。
-
-### 直链
-
-```
-https://github.com/NovaX322/zhb/releases/latest
-```
-
-进入页面后在 **Assets** 里点击 zip 即可下载。
 
 ### 校验（可选，但建议）
 
@@ -49,16 +50,22 @@ https://github.com/NovaX322/zhb/releases/latest
 **Windows PowerShell：**
 
 ```powershell
-Get-FileHash -Algorithm SHA256 "Chapter of Yuusha Ⅲ 勇者之章Ⅲ v3.13.13 客户端导入包（绝望纪元版本）.zip"
+Get-FileHash -Algorithm SHA256 "Chapter-of-Yuusha-III-v3.13.13-Client-Pack-Despaired-Era.zip"
 ```
 
 **Linux / macOS：**
 
 ```bash
-sha256sum "Chapter of Yuusha Ⅲ 勇者之章Ⅲ v3.13.13 客户端导入包（绝望纪元版本）.zip"
+sha256sum "Chapter-of-Yuusha-III-v3.13.13-Client-Pack-Despaired-Era.zip"
 ```
 
-输出的哈希值应与上表中的 `SHA-256` 完全一致。若不一致，说明下载过程中断或文件被篡改，请重新下载。
+输出应等于：
+
+```
+29BD7F4265DDD216419D18589AE1EEE4DB7CAB5FB9DE59B77BFD2E8584B269AD
+```
+
+若不一致，说明下载中断或文件被改动，请重新下载。
 
 ---
 
@@ -80,14 +87,15 @@ sha256sum "Chapter of Yuusha Ⅲ 勇者之章Ⅲ v3.13.13 客户端导入包（�
 
 ---
 
-## 📄 目录结构
+## 📄 仓库内容
 
 ```
 .
-└── README.md      # 本说明文件
+├── README.md      # 本说明文件
+└── (Release 附件)  # 整合包本体，约 1.07 GiB
 ```
 
-整合包本体以 Release 附件形式提供，不占用仓库存储。
+整合包本体以 Release 附件形式提供，不占用仓库代码存储。
 
 ---
 
