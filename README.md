@@ -44,7 +44,8 @@
 | 整合包 | 版本 | 大小 | 原版出处 | 下载 |
 | --- | --- | --- | --- | --- |
 | **Chapter of Yuusha Ⅲ**（勇者之章Ⅲ）<br>客户端导入包 · 绝望纪元版本<br><sub>MC 1.20.1 + Forge 47.4.13 · 作者 Lovin</sub> | v3.13.13<br><sub>⚠️ 需热更新</sub> | 1.07 GiB | [原作者网盘](https://pan.baidu.com/share/init?surl=ALWC3NIeXsvfiu6zEHwaTA)（提取码 `yzzz`）<br>[原作者视频（B站）](https://www.bilibili.com/video/BV1nYN2evEug/) | [前往下载](../../releases/tag/v3.13.13) |
-| **短小精悍2**（红石生电优化 · 魔改）<br>Modrinth 导入包<br><sub>MC 26.2 + Fabric 0.19.5 · 基于<b>明月庄主 26.2 红石生电</b>魔改</sub> | v1.0.0 | 6.51 MiB | [原整合包：红石生电优化 RSO](https://modrinth.com/modpack/rso)<br><sub>作者 明月庄主 · GPL-3.0 · 本包为其 <b>26.2</b> 版魔改</sub> | [前往下载](../../releases/tag/duanxiao2-v1.0.0) |
+| **短小精悍2**（红石生电优化 · 魔改）<br>Modrinth 导入包<br><sub>MC 26.2 + Fabric 0.19.5 · 基于<b>明月庄主 26.2 红石生电</b>魔改</sub> | v1.0.0<br><sub>旧版</sub> | 6.51 MiB | [原整合包：红石生电优化 RSO](https://modrinth.com/modpack/rso)<br><sub>作者 明月庄主 · GPL-3.0 · 本包为其 <b>26.2</b> 版魔改</sub> | [前往下载](../../releases/tag/duanxiao2-v1.0.0) |
+| **短小精悍2 v1.0.2**（红石生电优化 · 魔改 · **修掉重复模组崩溃**）<br>Modrinth 导入包<br><sub>MC 26.2 + Fabric 0.19.5 · 基于<b>明月庄主 RSO 26.2</b>魔改</sub> | v1.0.2<br><sub>推荐用这版</sub> | 9.95 MiB | [原整合包：红石生电优化 RSO](https://modrinth.com/modpack/rso)<br><sub>作者 明月庄主 · GPL-3.0 · 本包为其 <b>26.2</b> 版魔改</sub> | [前往下载](../../releases/tag/duanxiao2-v1.0.2) |
 
 > 表格会随新整合包发布持续更新；也可以直接进 **[Releases 总页面](../../releases)** 看全部。
 
@@ -76,6 +77,7 @@ sha256sum "下载的文件.zip"
 | --- | --- | --- |
 | 勇者之章Ⅲ v3.13.13 | `Chapter-of-Yuusha-III-v3.13.13-Client-Pack-Despaired-Era.zip` | `29BD7F4265DDD216419D18589AE1EEE4DB7CAB5FB9DE59B77BFD2E8584B269AD` |
 | 短小精悍2 v1.0.0 | `DuanXiao2-v1.0.0.mrpack` | `CFB9C0874D5C2D03BBC02CCD1D0C40AD655E29202DBA383FF5EBB8A1BF95ABAA` |
+| 短小精悍2 v1.0.2 | `DuanXiao2-v1.0.2.mrpack` | `B9936F38C9E5FC2D58B5FDEBA2CD3FFD232FA96DDC90D37CBBC2B6C47D66F17F` |
 
 > 📌 **关于文件名**：GitHub 的 Release 附件名会剔除中文与全角符号，所以上传时文件名会被转写成纯 ASCII（例如 `Chapter.of.Yuusha.III.v3.13.13.zip`）。**文件内容与原版完全一致**，只是名字变了。
 
